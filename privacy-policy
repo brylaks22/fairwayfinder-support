@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Finder: Golf in Ontario – Privacy Policy</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap');
+
+    :root {
+      --green-deep:    #0b4a2b;
+      --green-mid:     #1a6b40;
+      --green-light:   #e8f5ee;
+      --gold:          #c9a84c;
+      --text:          #1c1c1c;
+      --text-muted:    #5a6b5e;
+      --border:        #cdddd4;
+      --white:         #ffffff;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 300;
+      background: var(--green-light);
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--green-deep);
+      padding: 48px 24px 40px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 20% 50%, rgba(201,168,76,0.12) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 30%, rgba(26,107,64,0.4) 0%, transparent 55%);
+    }
+    .header-inner { position: relative; z-index: 1; }
+    .flag {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--green-deep);
+      font-family: 'Playfair Display', serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 4px 14px;
+      border-radius: 2px;
+      margin-bottom: 16px;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      color: var(--white);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+    header p {
+      color: rgba(255,255,255,0.7);
+      font-size: 0.95rem;
+      font-style: italic;
+    }
+
+    /* ── Layout ── */
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+    }
+
+    /* ── Effective date banner ── */
+    .effective-date {
+      background: var(--white);
+      border-left: 4px solid var(--gold);
+      border-radius: 0 8px 8px 0;
+      padding: 14px 20px;
+      margin-bottom: 32px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .effective-date strong { color: var(--text); }
+
+    /* ── Sections ── */
+    section {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 28px 30px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 10px rgba(11,74,43,0.06);
+    }
+
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem;
+      color: var(--green-deep);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+      margin-bottom: 16px;
+    }
+
+    section h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      color: var(--green-mid);
+      margin: 18px 0 6px;
+    }
+
+    p { margin-bottom: 12px; font-size: 0.97rem; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 8px 0 12px 0;
+      padding-left: 1.4rem;
+    }
+    ul li {
+      margin-bottom: 6px;
+      font-size: 0.97rem;
+    }
+
+    a { color: var(--green-mid); text-decoration: underline; }
+
+    .highlight-box {
+      background: var(--green-light);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin: 14px 0;
+      font-size: 0.93rem;
+      color: var(--text-muted);
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 24px 16px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--green-mid); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="flag">Legal</div>
+      <h1>Course Finder: Golf in Ontario<br>Privacy Policy</h1>
+      <p>Your privacy matters. Here's exactly what we collect and why.</p>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="effective-date">
+      <strong>Effective Date:</strong> April 1, 2026 &nbsp;|&nbsp;
+      <strong>Last Updated:</strong> March 29, 2026
+    </div>
+
+    <section>
+      <h2>1. Overview</h2>
+      <p>Course Finder: Golf in Ontario ("the App") is operated by Bryan Laks ("we," "us," or "our"). This Privacy Policy explains how we handle information when you use our iOS application.</p>
+      <p>We are committed to keeping your data minimal. We do not sell your personal information to third parties.</p>
+    </section>
+
+    <section>
+      <h2>2. Information We Collect</h2>
+
+      <h3>Location Data</h3>
+      <p>The App requests access to your device's location for the following purposes:</p>
+      <ul>
+        <li>Showing golf courses near you on the map</li>
+        <li>Calculating distances between your current location and courses</li>
+        <li>Powering the distance filter feature</li>
+        <li>Reverse geocoding to display your approximate city or region</li>
+      </ul>
+      <div class="highlight-box">
+        📍 Location is only accessed while the App is in use. We do not track your location in the background and do not store your location on our servers.
+      </div>
+
+      <h3>Usage Data</h3>
+      <p>We do not collect analytics, crash reports, or behavioral data beyond what Apple's standard App Store and TestFlight tools provide automatically.</p>
+
+      <h3>Information You Provide</h3>
+      <p>If you contact us via email for support, we receive your email address and any information you include in your message. This is used solely to respond to your inquiry.</p>
+    </section>
+
+    <section>
+      <h2>3. How We Use Your Information</h2>
+      <p>We use information only to:</p>
+      <ul>
+        <li>Display nearby golf courses based on your location</li>
+        <li>Provide distance-based sorting and filtering</li>
+        <li>Respond to support requests you initiate</li>
+      </ul>
+      <p>We do not use your information for advertising, profiling, or any purpose beyond core app functionality.</p>
+    </section>
+
+    <section>
+      <h2>4. Data Storage & Third Parties</h2>
+      <p>Golf course data (names, locations, ratings, course details) is stored in <strong>Supabase</strong>, a cloud database provider. This is static course information — it does not include any personal data about you.</p>
+      <p>We do not share, sell, or rent any personal information to third parties. We do not use third-party advertising SDKs or tracking libraries.</p>
+    </section>
+
+    <section>
+      <h2>5. Data Retention</h2>
+      <p>We do not store personal data on our servers. Location data is processed on-device and not transmitted to or stored by us.</p>
+      <p>If you email us for support, your email may be retained for up to 12 months for the purpose of follow-up support, after which it is deleted.</p>
+    </section>
+
+    <section>
+      <h2>6. Children's Privacy</h2>
+      <p>Course Finder: Golf in Ontario is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will promptly delete it.</p>
+    </section>
+
+    <section>
+      <h2>7. Your Rights (Canadian Users)</h2>
+      <p>Under Canada's Personal Information Protection and Electronic Documents Act (PIPEDA), you have the right to:</p>
+      <ul>
+        <li>Know what personal information we hold about you</li>
+        <li>Request correction of inaccurate information</li>
+        <li>Withdraw consent for collection where applicable</li>
+        <li>Lodge a complaint with the Office of the Privacy Commissioner of Canada</li>
+      </ul>
+      <p>To exercise any of these rights, contact us at the email below.</p>
+    </section>
+
+    <section>
+      <h2>8. Security</h2>
+      <p>We use industry-standard HTTPS/TLS for all data in transit. Since we do not store personal data server-side, the risk of a data breach affecting your personal information is minimal.</p>
+    </section>
+
+    <section>
+      <h2>9. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. When we do, we will update the "Last Updated" date at the top of this page. Continued use of the App after changes constitutes acceptance of the revised policy.</p>
+    </section>
+
+    <section>
+      <h2>10. Contact Us</h2>
+      <p>Questions, concerns, or data requests? Reach us at:</p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:fairwayfindercanada@gmail.com">fairwayfindercanada@gmail.com</a><br>
+        <strong>Response time:</strong> Within 24–48 hours
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Course Finder: Golf in Ontario &nbsp;|&nbsp; <a href="mailto:fairwayfindercanada@gmail.com">fairwayfindercanada@gmail.com</a></p>
+    <p style="margin-top:6px;">© 2026 Bryan Laks. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
